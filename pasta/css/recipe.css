@@ -41,6 +41,21 @@ body{
   margin-left:20px;
 }
 
+.ingredients{
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  background-color: aquamarine;
+  padding:50px;
+}
+
+.r-1,.r-2,.r-3{
+  display:flex;
+  flex-direction:row;
+  height:200px;
+  width:200px;
+}
+
 /*Background img*/
 #background{
   filter:blur(4px);
