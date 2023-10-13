@@ -12,6 +12,7 @@ body{
   height: 100%;
   display:flex;
   flex-direction: row;
+  margin-left:30px;
 }
 
 /*Container (.img-display, description)*/
@@ -20,7 +21,7 @@ body{
   flex-direction:row;
   width:100%;
   height:100%;
-  background-color: rgb(150, 121, 107);;
+  
 }
 
 /*Container for animation*/
@@ -28,36 +29,70 @@ body{
   position: absolute;
   justify-content: center;
   align-items: center;
+  margin-top:20px;
 }
+
 
 /*Description text box*/
 .description{
+  position:absolute;
+  left:1150px;
+  width:350px;
+  height:710px;
   background-color:rgb(255, 255, 255, 0.8);
   border-radius: 10px;
-  width:30%;
-  height:700px;
-  margin-top:20px;
-  margin-right:20px;
-  margin-left:20px;
+  padding:20px;
+  padding-left:30px;
+  margin-left:30px;
 }
 
 .ingredients{
-  height:100%;
   display:flex;
   flex-direction:column;
-  background-color: aquamarine;
-  padding:50px;
+  width:500px;
+  padding:20px;
+  margin-left:60px;
+  margin-top:10px;
+}
+
+.recipe{
+  padding:10px;
+  font-size:25px;
 }
 
 .r-1,.r-2,.r-3{
   display:flex;
   flex-direction:row;
-  height:200px;
-  width:200px;
+  padding:10px;
+  margin-bottom: 20px;
+}
+
+.img-holder{
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+  text-align: center;
+  margin-right:80px;
+}
+
+.i-img{
+  height:130px;
+  transition: transform .2s;
+}
+
+.i-img:hover{
+  transform: scale(1.2);
+  border-color: azure;
+}
+
+.i-label{
+  font-size:20px;
+  margin-top:5px;
 }
 
 /*Background img*/
 #background{
+  position:absolute;
   filter:blur(4px);
   margin:5px;
   overflow: hidden;
