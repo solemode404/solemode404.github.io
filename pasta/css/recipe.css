@@ -6,6 +6,10 @@ body{
   
 }
 
+h1{
+  font-size:25px;
+}
+
 /*main-container*/
 .main{
   width: 100%;
@@ -19,9 +23,8 @@ body{
 .container{
   display:flex;
   flex-direction:row;
-  width:100%;
+  width:98%;
   height:100%;
-  
 }
 
 /*Container for animation*/
@@ -90,11 +93,48 @@ body{
   margin-top:5px;
 }
 
+.ingredients-prep{
+  display:flex;
+  flex-direction: column;
+  margin-left:50px;
+}
+
+.ingredients-cook{
+  
+}
+
+.img-upper{
+  display:flex;
+}
+
+.img-lower{
+  display:flex;
+  flex-direction: row;
+}
+
 /*Background img*/
 #background{
   position:absolute;
   filter:blur(4px);
   margin:5px;
   overflow: hidden;
+}
+
+#c-board{
+  width:500px;
+  margin:auto;
+}
+
+#red-onion{
+  width:200px;
+}
+
+#garlic{
+  width:200px;
+}
+
+/*Animation*/
+#chop{
+
 }
 
