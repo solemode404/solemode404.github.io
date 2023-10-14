@@ -19,6 +19,42 @@ body{
   bottom:0;
 }
 
+#time{
+  font-size:30px;
+}
+
+#homemade{
+  font-size:40px;
+}
+
+#see-recipe{
+  margin-left:160px;
+  border:none;
+  background-color: transparent;
+  font-size:25px;
+  text-decoration:none;
+}
+
+#see-recipe:hover{
+  transform:scale(1.02);
+  transition-duration:0.4s;
+  text-decoration:none;
+}
+
+a{
+  text-decoration:none;
+}
+
+a:visited{
+  background-color: transparent;
+  text-decoration:none;
+  color:white;
+}
+
+a:active{
+  text-decoration:none;
+}
+
 /*Images & Shapes*/
 #pasta-main-img{
   position:absolute;
@@ -33,11 +69,10 @@ body{
   position:absolute;
   background-color:rgba(0, 0, 0, 0.5);
   margin-left:800px;
-  font-size:80px;
+  height:700px;
+  font-size:70px;
   color:white;
   text-align:left;
-  padding:50px;
-  padding-top:80px;
-  padding-bottom:80px;
-  line-height:0.1;
+  padding:30px;
+
 }

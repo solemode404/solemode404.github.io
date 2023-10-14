@@ -11,10 +11,11 @@ a:visited{
 }
 
 iframe{
-  width:100%;
+  width:96%;
   height:800px;
   overflow: hidden;
   background-color: rgb(150, 121, 107);
+  margin-top:30px;
 }
 
 ul{
@@ -48,8 +49,10 @@ ul{
 }
 
 .side-nav-button:hover{
-  text-decoration: underline;
   color:rgb(150, 86, 48);
+  transform:scale(1.02);
+  transition-duration:0.4s;
+  text-decoration:none;
 }
 
 .container{
@@ -69,14 +72,17 @@ ul{
 }
 
 .upper-nav-button:hover{
-  text-decoration: underline;
   color:rgb(150, 86, 48);
+  transform:scale(1.02);
+  transition-duration:0.4s;
+  text-decoration:none;
 }
 
 .upper-nav{
   position:absolute;
   right:0;
-  margin-right:20px;
+  margin-right:80px;
+  margin-top:15px;
   align-items: end;
 }
 
