@@ -1,0 +1,46 @@
+.s-1-img-display{
+  display:flex;
+  flex-direction:row;
+}
+
+.ingredients-prep{
+  display:flex;
+  flex-direction: column;
+  margin-left:50px;
+}
+
+.ingredients-cook{
+  
+}
+
+.img-upper{
+  display:flex;
+}
+
+.img-lower{
+  display:flex;
+  flex-direction: row;
+}
+
+#c-board{
+  width:500px;
+  margin:auto;
+}
+
+#red-onion{
+  width:200px;
+}
+
+#garlic{
+  width:200px;
+}
+
+#pan{
+  width:700px;
+}
+
+
+/*Animation*/
+#chop{
+
+}

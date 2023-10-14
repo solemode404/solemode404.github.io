@@ -1,0 +1,8 @@
+.ingredients{
+  display:flex;
+  flex-direction:column;
+  width:500px;
+  padding:20px;
+  margin-left:60px;
+  margin-top:10px;
+}
