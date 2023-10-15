@@ -1,8 +1,11 @@
+*{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 body{
   background-color:bisque;
   margin:0;
 }
-
 
 p{
   position:absolute;
@@ -16,8 +19,10 @@ p{
 
 a:hover{
   transform:scale(1.02);
+  transform: translateY(-1.1rem);
   transition-duration:0.4s;
-  box-shadow: 0 17px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 17px 20px 0 rgba(0,0,0,0.3);
+  background-color: rgb(211, 153, 129);
 }
 
 img{
@@ -41,7 +46,6 @@ img{
 .food-list{
   display:flex;
   flex-direction:row;
-  background-color:rgb(211, 171, 144);
   height:80%;
   margin:auto;
   width:1250px;
@@ -57,3 +61,56 @@ img{
 
 }
 
+.splash{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(57, 41, 27, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  z-index: 9999; 
+  pointer-events:none;
+  animation: hideSplash 3s forwards;
+}
+
+#cooking-pot{
+  height:200px;
+}
+
+.splash-content {
+  text-align: center;
+  color: #fff;
+}
+
+.splash-content h1 {
+  font-size: 36px;
+}
+
+/*Animation*/
+@keyframes breathing {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes hideSplash {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+.splash:not(.splash-hide) #cooking-pot {
+  animation: breathing 1s infinite;
+}

@@ -1,6 +1,9 @@
+*{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 body{
   background-color:rgba(57, 41, 27, 1);
-
 }
 
 /*div*/

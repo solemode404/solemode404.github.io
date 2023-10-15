@@ -1,9 +1,12 @@
+*{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 /*General recipe layout*/
 body{
   display:flex;
   flex-direction:row;
   padding:20px;
-  
 }
 
 h1{
@@ -58,10 +61,13 @@ h1{
   margin-top:10px;
 }
 
+
 .recipe{
   padding:10px;
   font-size:25px;
 }
+
+
 
 .r-1,.r-2,.r-3{
   display:flex;
@@ -176,7 +182,7 @@ h1{
   color:rgb(160, 89, 24);
   display: inline-block;
   padding: 8px 8px;
-  background-color: #ccc;
+  background-color: #cac0bb;
   border-radius:10px;
   cursor: pointer;
   text-decoration: none;

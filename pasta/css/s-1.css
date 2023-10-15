@@ -1,3 +1,7 @@
+*{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 .s-1-img-display{
   display:flex;
   flex-direction:row;
@@ -37,10 +41,4 @@
 
 #pan{
   width:700px;
-}
-
-
-/*Animation*/
-#chop{
-
 }
