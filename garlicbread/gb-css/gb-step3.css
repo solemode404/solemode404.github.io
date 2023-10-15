@@ -1,3 +1,6 @@
+*{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
 body{
   display:flex;
   flex-direction:row;
@@ -14,7 +17,7 @@ h1{
   height: 100%;
   display:flex;
   flex-direction: row;
-  background-color: rgb(150, 121, 107);
+  margin-left:30px;
 }
 
 /*Container (.img-display, description)*/
@@ -30,6 +33,7 @@ h1{
   position: absolute;
   justify-content: center;
   align-items: center;
+  margin-top:20px;
 }
 .recipe{
   padding:10px;
@@ -87,7 +91,7 @@ h1{
   color:rgb(160, 89, 24);
   display: inline-block;
   padding: 8px 8px;
-  background-color: #ccc;
+  background-color: #cac0bb;
   border-radius:10px;
   cursor: pointer;
   text-decoration: none;
