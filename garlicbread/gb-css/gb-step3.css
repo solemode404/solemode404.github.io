@@ -63,12 +63,10 @@ h1{
 	top: 0;
 	right: 0;
 	bottom: 0;	
-	animation: knead 4s linear 3;
-	opacity:0;
 }
 /*knead container w target #knead for action-bttn*/
 #knead-container:target #knead{
-	opacity:1;
+	animation: knead 4s linear 3;
 }
 /*keyframe animation for repeating knead*/
 @keyframes knead{
