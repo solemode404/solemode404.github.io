@@ -81,7 +81,7 @@ h1{
 #c-board{
   width:1000px;
   height:800px;
-  background-image: url(c-board.png);
+  background-image: url(../gb-img/c-board.png);
   background-position: center;
   background-size: cover; 
   margin:auto;
