@@ -20,6 +20,41 @@ body{
   right:0;
   bottom:0;
 }
+#time{
+  font-size:30px;
+}
+
+#homemade{
+  font-size:40px;
+}
+#see-recipe{
+  margin-left:160px;
+  border:none;
+  background-color: transparent;
+  font-size:25px;
+  text-decoration:none;
+}
+
+#see-recipe:hover{
+  transform:scale(1.02);
+  transition-duration:0.4s;
+  text-decoration:none;
+}
+
+a{
+  text-decoration:none;
+}
+
+a:visited{
+  background-color: transparent;
+  text-decoration:none;
+  color:white;
+}
+
+a:active{
+  text-decoration:none;
+}
+
 /*Images & Shapes*/
 #gb-main-img{
   display:block;
