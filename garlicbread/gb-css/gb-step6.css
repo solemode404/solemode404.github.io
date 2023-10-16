@@ -88,12 +88,7 @@ h1{
 }
 #cook-container:target #cook{
 	opacity:1;
-	animation: cook 4s linear 1;
-}
-@keyframes cook{
-	0%{transform: scale(1);}
-	50%{transform:scale(1.5);}
-	100%{transform: scale(2);}
+	transition: opacity 0.3S ease;
 }
 #oven{
   width:1000px;
