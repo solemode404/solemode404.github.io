@@ -44,7 +44,7 @@ h1{
   position:absolute;
   left:1150px;
   width:350px;
-  height:710px;
+  height:750px;
   background-color:rgb(255, 255, 255, 0.8);
   border-radius: 10px;
   padding:20px;
@@ -115,6 +115,7 @@ h1{
   flex-direction: row;
 }
 
+/*image id's*/
 #s-1-img-layout{
   display:flex;
   flex-direction:row;
@@ -175,8 +176,133 @@ h1{
   transition: opacity 0.3S ease;
 }
 
+#beef{
+	position:absolute;
+  width:170px;
+  margin-top:300px;
+  margin-left:50px;
+}
 
-/*Animation*/
+#oregano{
+	position:absolute;
+  width:150px;
+  margin-top:300px;
+  margin-left:400px;
+}
+
+#basil{
+	position:absolute;
+  width:100px;
+  margin-top:450px;
+  margin-left:50px;
+}
+
+#tomato-crushed{
+	position:absolute;
+  width:100px;
+  margin-top:450px;
+  margin-left:150px;
+}
+
+#tomato-sauce{
+	position:absolute;
+  width:100px;
+  margin-top:500px;
+  margin-left:300px;
+}
+
+#pan-g{
+  position:absolute;
+  width:550px;
+  margin-top:250px;
+  margin-left:500px;
+  opacity:0;
+  transition: opacity 0.3S ease;
+}
+
+#pan-b-o{
+  position:absolute;
+  width:550px;
+  margin-top:250px;
+  margin-left:500px;
+  opacity:0;
+  transition: opacity 0.3S ease;
+}
+
+#pan-tom{
+  position:absolute;
+  width:550px;
+  margin-top:250px;
+  margin-left:500px;
+  opacity:0;
+  transition: opacity 0.3S ease;
+}
+
+#s-p{
+  position:absolute;
+  width:200px;
+  margin-top:250px;
+  margin-left:700px;
+  opacity:0;
+  transition: opacity 0.3S ease;
+}
+
+#pasta{
+  position:absolute;
+  width:200px;
+  margin-top:300px;
+  margin-left:50px;
+}
+
+#pan-n{
+  position:absolute;
+  width:550px;
+  margin-top:250px;
+  margin-left:500px;
+  opacity:0;
+  transition: opacity 0.3S ease;
+}
+
+#pan-p{
+  position:absolute;
+  width:550px;
+  margin-top:250px;
+  margin-left:500px;
+  opacity:0;
+  transition: opacity 0.3S ease;
+}
+
+#pasta-s{
+  position:absolute;
+  width:550px;
+  margin-top:250px;
+  margin-left:500px;
+  opacity:0;
+  transition: opacity 0.3S ease;
+}
+
+#pan-s-p{
+  position:absolute;
+  width:650px;
+  margin:auto;
+  opacity:0;
+  transition: opacity 0.3S ease;
+}
+
+#spaghet{
+  position:absolute;
+  width:500px;
+  margin:auto;
+  opacity:0;
+  transition: opacity 0.3S ease;
+}
+
+
+
+
+
+
+/*Animation, container id's*/
 
 #action-button{
   color:rgb(160, 89, 24);
@@ -205,6 +331,50 @@ h1{
   opacity:1;
 }
 
+#pan-garlic:target #pan-g{
+	opacity:1;
+}
+
+#pan-garlic:target #pan-g{
+	opacity:1;
+}
+
+#chop-tomato:target #c-t{
+	opacity:1;
+}
+
+#pan-beef-oregano:target #pan-b-o{
+	opacity:1;
+}
+
+#pan-tomato:target #pan-tom{
+	opacity:1;
+}
+
+#salt-pepper:target #s-p{
+	opacity:1;
+}
+
+#pan-new:target #pan-n{
+	opacity:1;
+}
+
+#pan-pasta:target #pan-p{
+	opacity:1;
+}
+
+#pasta-strain:target #pasta-s{
+	opacity:1;
+}
+
+#pan-sauce-pasta:target #pan-s-p{
+	opacity:1;
+}
+
+
+#spaghetti:target #spaghet{
+	opacity:1;
+}
 
 
 
