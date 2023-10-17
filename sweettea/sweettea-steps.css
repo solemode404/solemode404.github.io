@@ -73,21 +73,21 @@ h1{
   position:absolute;
   width:250px;
   height: 250px;
-  margin-top:450px;
+  margin-top:200px;
   margin-left:75px;
   opacity:0;
 }
 #teabag-container:target #teabag{
   transition: opacity 0.3s ease;
+  opacity:1;
 }
 #kettle{
   position:absolute;
   width:250px;
   height: 250px;
-  margin-top:450px;
-  margin-left:750px;
+  margin-top:200px;
+  margin-left:350px;
   opacity:1;
-  transition: opacity 0.3s ease;
 }
 #kettle-container:target #kettle{
 	animation: kettle 4s linear 3;
@@ -109,12 +109,13 @@ h1{
   position:absolute;
   width:250px;
   height: 250px;
-  margin-top:450px;
-  margin-left:300px;
-  opacity:1;
+  margin-top:200px;
+  margin-left:600px;
+  opacity:0;
 }
 #seapbag-container:target #seapbag{
   transition: opacity 0.3s ease;
+  opacity:1;
 }
 #action-bttn{
   color:rgb(160, 89, 24);
