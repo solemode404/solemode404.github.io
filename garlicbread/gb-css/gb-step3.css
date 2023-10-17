@@ -87,6 +87,7 @@ h1{
   background-size: cover; 
   margin:auto;
   position: relative;
+  overflow:hidden;
 }
 #action-bttn{
   color:rgb(160, 89, 24);
