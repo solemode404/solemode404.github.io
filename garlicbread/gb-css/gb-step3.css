@@ -80,8 +80,8 @@ h1{
 	100%{transform: scale(1);}
 }
 #c-board{
-  width:1000px;
-  height:800px;
+  width:900px;
+  height:700px;
   background-image: url(../gb-img/c-board.png);
   background-position: center;
   background-size: cover; 
