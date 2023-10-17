@@ -24,7 +24,7 @@ h1{
 .container{
   display:flex;
   flex-direction:row;
-  width:98%;
+  width:96%;
   height:100%;
 }
 
@@ -51,7 +51,7 @@ h1{
   padding:20px;
   padding-left:30px;
   margin-left:30px;
-   overflow:hidden;
+
 }
 /*Background img*/
 #background{
@@ -81,8 +81,8 @@ h1{
 	100%{transform: scale(1);}
 }
 #c-board{
-  width:800px;
-  height:600px;
+  width:900px;
+  height:700px;
   background-image: url(../gb-img/c-board.png);
   background-position: center;
   background-size: cover; 
