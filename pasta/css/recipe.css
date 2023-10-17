@@ -95,7 +95,6 @@ h1{
 
 .i-img:hover{
   transform: scale(1.2);
-  border-color: azure;
 }
 
 .i-label{
@@ -178,6 +177,10 @@ h1{
   margin-top:60px;
   opacity:0;
   transition: opacity 0.3S ease;
+}
+
+#onion-garlic-container:target #onion-garlic{
+  opacity:1;
 }
 
 #beef{
@@ -322,9 +325,7 @@ h1{
   background-color: rgb(141, 128, 112);
 }
 
-#onion-garlic-container:target #onion-garlic{
-  opacity:1;
-}
+
 
 
 #pan-container:target #pan{

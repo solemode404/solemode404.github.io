@@ -61,6 +61,21 @@ img{
 
 }
 
+
+
+#cooking-pot{
+  height:200px;
+}
+
+.splash-content {
+  text-align: center;
+  color: #fff;
+}
+
+.splash-content h1 {
+  font-size: 36px;
+}
+
 .splash{
   position: fixed;
   top: 0;
@@ -76,17 +91,8 @@ img{
   animation: hideSplash 3s forwards;
 }
 
-#cooking-pot{
-  height:200px;
-}
-
-.splash-content {
-  text-align: center;
-  color: #fff;
-}
-
-.splash-content h1 {
-  font-size: 36px;
+.splash:not(.hideSplash) #cooking-pot {
+  animation: breathing 1s infinite;
 }
 
 /*Animation*/
@@ -111,6 +117,3 @@ img{
   }
 }
 
-.splash:not(.splash-hide) #cooking-pot {
-  animation: breathing 1s infinite;
-}
