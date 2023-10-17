@@ -71,7 +71,7 @@ h1{
   background-image: url(../gb-img/c-board.png);
   background-position: center;
   background-size: cover; 
-  margin:auto;
+  margin-left:20px;
   position: relative;
 }
 #meltbutter{
