@@ -8,6 +8,7 @@ body{
   height:100%;
   width: 100%;
   overflow:hidden;
+  display: inline;
 }
 h1{
   font-size:25px;
@@ -54,8 +55,8 @@ h1{
   margin-left:155px;
 }
 #counter{
-  width:1000px;
-  height:900px;
+  width:900px;
+  height:700px;
   background-image: url(../sweettea/counter.jpg);
   background-position: center;
   background-size: cover; 
@@ -67,36 +68,44 @@ h1{
 #background{
   filter:blur(4px);
   margin:5px;
-  overflow: hidden;
 }
 #brew{
   position:absolute;
-  width:50px;
-  height: 50px;
-  margin-top:200px;
-  margin-left:75px;
+  width:250px;
+  height: 250px;
+  margin-top:100px;
+  margin-left:350px;
+  opacity:1;
+}
+#sugar{
+  position:absolute;
+  width:250px;
+  height: 250px;
+  margin-top:20px;
+  margin-left:290px;
   opacity:0;
 }
-#brew-container:target #brew{
+#sugar-container:target #sugar{
   transition: opacity 0.3s ease;
   opacity:1;
 }
+
 #lemon{
   position:absolute;
-  width:50px;
-  height: 50px;
-  margin-top:200px;
-  margin-left:350px;
+  width:250px;
+  height:250px;
+  margin-top:450px;
+  margin-left:150px;
   opacity:1;
 }
 #lemon-container:target #lemon{
   transition: opacity 0.3s ease;
-  opacity:1;
+  opacity:0;
  }
 #lemonslice{
   position:absolute;
-  width:50px;
-  height: 50px;
+  margin-top:450px;
+  margin-left:150px;
   opacity:0;
 }
 #lemonslice-container:target #lemonslice{
@@ -105,8 +114,10 @@ h1{
 }
 #ice{
   position:absolute;
-  width:50px;
-  height: 50px;
+  width:250px;
+  height:250px;
+  margin-top:100px;
+  margin-left:335px;
   opacity:0;
 }
 #ice-container:target #ice{
@@ -115,8 +126,10 @@ h1{
 }
 #icetea{
   position:absolute;
-  width:50px;
-  height:50px;
+  width:250px;
+  height:250px;
+  margin-top:400px;
+  margin-left:550px;
   opacity:0;
 }
 #icetea-container:target #icetea{
