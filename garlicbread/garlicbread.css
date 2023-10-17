@@ -67,10 +67,10 @@ a:active{
 #square{
   position:absolute;
   background-color:rgba(0, 0, 0, 0.5);
-  margin-left:800px;
+  margin-left:630px;
   height:700px;
   font-size:70px;
   color:white;
   text-align:left;
-  padding:50px;
+  padding:30px;
 }
