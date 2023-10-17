@@ -25,8 +25,8 @@ h1{
 .container{
   display:flex;
   flex-direction:row;
-  width:96%;
-  height:96%;
+  width:98%;
+  height:100%;
 }
 
 /*Container for animation*/
@@ -51,7 +51,7 @@ h1{
   border-radius: 10px;
   padding:20px;
   padding-left:30px;
-  margin-left:140px;
+  margin-left:155px;
 }
 /*Background img*/
 #background{
